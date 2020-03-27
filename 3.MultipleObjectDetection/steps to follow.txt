@@ -1,0 +1,25 @@
+1. Cratetd the Databases: (a) Query image database of 42 in number
+                          (b) Database of 5K images
+                          (c) Database of 16L images
+
+2. Convert the query image database into mat file and then sequence file and keep this sequene file in HDFS.(a1 and a2)
+
+	hdfs dfs -put **path-of-mat-file** hdfs://mater:9000/**output-directory**
+
+3. Convert the Database 5K images database into mat file and then sequence file and keep this sequene file in HDFS. (a1 and a2)
+
+	change datastore path in a3_.*.m ( line number 31)
+	change input path in od_mapper_job2.m (line numbr 16)
+	check database size in database_properties.txt ( 3rd value)
+
+
+4. Now execute the a3 which is the main program for comparing and givne the result as prediction matrix but as sequence file
+
+5. Now execute 'a4' which will convert the prediciton matrix in sequence file into text format (sublime.txt)
+
+6. Final results will be given by 'a5' i.e. percentage.
+
+
+
+mstsc			command for master node
+

@@ -1,0 +1,4 @@
+hdfs://master:9000/multiobject_test_database/
+/home/cse/results/
+/1/
+/home/cse/object_database/1.jpg
